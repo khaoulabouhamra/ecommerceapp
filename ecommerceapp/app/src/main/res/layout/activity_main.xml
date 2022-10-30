@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:ignore="ExtraText">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+
+
+        android:background="@drawable/grey_circular_border"
+        android:padding="10dp"
+
+        android:src="@drawable/tenuenoir"
+        android:layout_marginBottom="30dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+
+        android:layout_marginLeft="590dp"
+        android:background="@drawable/grey_circular_border"
+        android:layout_marginBottom="30dp"
+        android:padding="8dp"
+        android:src="@drawable/coeur" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="item : black t-shirt "
+        android:textSize="25sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="15dp"
+
+
+        />
+    <TextView
+        android:layout_marginTop="420dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantité : "
+        android:textSize="25sp"
+        android:layout_marginLeft="520dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prix: 17.75 "
+        android:textSize="25sp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="15dp"
+
+
+        />
+
+
+
+
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick ="decrement"
+        android:text="-"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="500dp"
+        android:id="@id/id.inc_id"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="25sp"
+        android:layout_marginLeft="530dp"
+        android:layout_marginTop="500dp"
+        android:id="@+id/tv_output_id"
+        />
+
+
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick ="increment"
+        android:text="+"
+
+        android:layout_marginLeft="400dp"
+
+
+
+        android:layout_marginTop="500dp"
+        android:id="@id/id.inc_id"
+
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN STOCK"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="color: black "
+        android:textSize="20sp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="15dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17.75 dollar"
+        android:textSize="20sp"
+        android:layout_marginLeft="540dp"
+        android:layout_marginTop="350dp"
+
+
+        />
+
+</RelativeLayout>
